@@ -1,0 +1,9 @@
+b76adf479fb1bdd6d35cb9350b6bf221722451b4f524d64afc079a90136884e2  asr-verify-1--config.json
+f9ddfaca517938bef3264b80f6267ecdeb4e19a25d00f0f280f86cc7539ee2a2  asr-verify-1--decoder.onnx
+2b3d863e8ab891e30e8e7e4d24849ac24f116a6ef1d270477c281f674a922ec4  asr-verify-1--encoder.onnx
+a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d  asr-verify-1--preprocessor_config.json
+7b469ff15eb7816315aa45eec391f5943d639b9d73d110f5c003df5192fd54e3  asr-verify-1--tokenizer.json
+0222a86147299d4dee90edf95b6d13827edb42ad8b7c9cf0b2582f030937c0b5  asr-verify-parakeet-1--decoder.onnx
+1afbe69c1ffdabee94755f42e4daf1d93549131a3da11356bda84fcef0f2c479  asr-verify-parakeet-1--encoder.onnx
+cbd02f3696e9944970111fb439d9c3fd365a80374565f13f2b9c7007d253fc98  asr-verify-parakeet-1--joiner.onnx
+d58544679ea4bc6ac563d1f545eb7d474bd6cfa467f0a6e2c1dc1c7d37e3c35d  asr-verify-parakeet-1--tokens.txt

@@ -52,3 +52,30 @@ two shared multilingual packs `opus-mt-en-mul` and `opus-mt-mul-en`,
 plus the self-converted `opus-mt-en-sw` from Helsinki-NLP/opus-mt-en-sw)
 are Apache License 2.0 base models by Helsinki-NLP, with ONNX exports
 by Xenova except `opus-mt-en-sw`, which the Mismo project converted.
+
+## Recording-check models (release `mismo-asr-1`)
+
+Added for Mismo 1.0.37. These models transcribe each generated chunk
+on-device so the app can compare it with the script and re-record a
+chunk that came out garbled. Pins live in
+`manifests/asr-verifier-v1.sha256`.
+
+### CC-BY-4.0 (attribution required)
+
+- `asr-verify-parakeet-1` (encoder, prediction network, joiner,
+  tokens): Parakeet TDT 0.6B v3 by NVIDIA, licensed under the
+  Creative Commons Attribution 4.0 International License
+  (https://creativecommons.org/licenses/by/4.0/), per the model
+  card at https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3.
+  ONNX export by the onnx-community. The mirrored files are the
+  int8 export, byte-identical to the files the Mismo ASR study
+  validated.
+
+### MIT
+
+- `asr-verify-1` (encoder, decoder, tokenizer, configs): Whisper
+  base by OpenAI, MIT License (code and weights,
+  https://github.com/openai/whisper). ONNX export by the
+  onnx-community (mechanical conversion; the MIT terms travel
+  with the weights). The mirrored files are the int8 export,
+  byte-identical to the files the Mismo ASR study validated.
